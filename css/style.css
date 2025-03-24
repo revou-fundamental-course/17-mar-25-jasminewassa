@@ -14,7 +14,7 @@ html {
 body {
     height: 100%;
     background: url(677.jpg);
-    background-size: 25%;
+    background-size: 15%;
     background-repeat: repeat;
 }
 .wrapper {
@@ -39,8 +39,7 @@ body {
     text-align: justify;
 }
 main {
-    background-color: #fffcef;
-    padding: 16px;
+    padding: 30px;
     text-align: center;
 }
 .container-main {
@@ -50,13 +49,16 @@ main {
     margin: auto;
     border-radius: 20px;
 }
-.container-main h1 {
+.welcome-text h1 {
     font-family: "Fredericka The Great", serif;
     color: #5b3434;
     font-size: 32px;
     padding-bottom: 10px;
 }
-.container-main p {
+.container-text {
+    padding: 10px;
+}
+.container-text p {
     font-family: "Acme", serif;
     color: #5b3434;
     font-size: 20px;
@@ -65,22 +67,17 @@ main {
     display: flex;
     flex-direction: column;
 }
-.nav-fitur a {
+.nav-fitur summary {
     font-family: "Acme", serif;
     color: #5b3434;
     background-color: #fffcef;
-    margin-top: 10px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    margin: 15px auto 5px;
+    padding: 16px 0;
     width: 50%;
     align-self: center;
     border-radius: 16px;
 }
-.nav-fitur a:link {
-    color: #e0c28e;
-    background-color: #396657;
-}
-.nav-fitur a:hover {
+.nav-fitur summary:hover {
     color: #fffcef;
     background-color: #396657;
     transform: scale(1.05);
@@ -88,36 +85,53 @@ main {
 }
 #persegi {
     background-color: #e7d5bb;
-    padding: 16px;
     max-width: 700px;
-    margin: 20px auto 0;
+    margin: 0 auto;
     border-radius: 20px;
 }
-.section-image {
+section {
+    padding: 0 16px;
+}
+.section-image1 {
     background-image: url(../assets/persegi.png);
     width: 225px;
     height: 224px;
+    margin: 0 0 20px;
+    justify-self: center;
+    background-size: cover;
+    background-position: center;
+}
+.section-image2 {
+    background-image: url(../assets/persegi-panjang.jpg);
+    width: 400px;
+    height: 225px;
+    margin: 0 0 20px;
     justify-self: center;
     background-size: cover;
     background-position: center;
 }
 .calculate-content {
-    border: 1px solid;
+    border: 2px solid;
+    border-radius: 20px;
     height: 300px;
-}
-section {
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 section h1 {
     font-family: "Fredericka The Great", serif;
     color: #5b3434;
-    font-size: 32px;
+    font-size: 26px;
     padding-bottom: 10px;
 }
 footer {
     text-align: center;
     font-family: "Acme", serif;
-    color: #5b3434;
+    color: #3c406b;
+    background-color: #85b9a8;
+    padding: 10px;
     font-size: 16px;
+}
+footer a:link {
+    color: #575685;
+}
+footer a:hover {
+    color: #fff6ef;
 }
