@@ -14,7 +14,7 @@ html {
 body {
     height: 100%;
     background: url(677.jpg);
-    background-size: 35%;
+    background-size: 15%;
     background-repeat: repeat;
 }
 .wrapper {
@@ -115,6 +115,10 @@ section {
     border-radius: 20px;
     padding: 20px;
 }
+.calculate-content h2 {
+    font-family: "Fredericka The Great", solid;
+    padding-bottom: 20px;
+}
 .calculate-content p {
     font-family: "Acme", serif;
     font-size: 22px;
@@ -127,12 +131,20 @@ section h1 {
     padding-bottom: 10px;
 }
 input {
-    width: 50px;
-    height: 35px;
     color: #5b3434;
     font-family: "Acme", serif;
     font-size: 22px;
     text-align: center;
+    margin: 5px;
+}
+.masuk {
+    padding-top: 10px;
+}
+.masuk>button {
+    margin-left: 10px;
+}
+.bpp {
+    margin-top: 15px;
 }
 button {
     color: #5b3434;
@@ -140,19 +152,18 @@ button {
     text-align: center;
     font-family: "Acme", serif;
     padding: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 button:hover {
     transform: scale(1.05);
 }
-.flex {
-    display: flex;
-    justify-content: center;
-    padding: 14px 0 10px;
+.hitung {
+    margin-left: 10px;
 }
-.flex h2 {
-    padding: 0 5px;
-    font-size: 30px;
+.reset-btn {
+    color: #fff6ef;
+    background-color: #943131;
+    margin-top: 10px;
 }
 footer {
     text-align: center;
@@ -161,6 +172,8 @@ footer {
     background-color: #85b9a8;
     padding: 10px;
     font-size: 16px;
+    max-width: 990px;
+    margin: auto;
 }
 footer a:link {
     color: #7a79ac;
