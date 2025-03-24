@@ -35,7 +35,7 @@ body {
 .main-header h1 {
     font-family: "Fredericka The Great", serif;
     color: #f8feff;
-    font-size: 32px;
+    font-size: 24px;
     text-align: justify;
 }
 main {
@@ -44,7 +44,7 @@ main {
     text-align: center;
 }
 .container-main {
-    background-color: #f5e6cf;
+    background-color: #e7d5bb;
     padding: 16px;
     max-width: 700px;
     margin: auto;
@@ -78,12 +78,20 @@ main {
 }
 .nav-fitur a:link {
     color: #e0c28e;
+    background-color: #396657;
 }
 .nav-fitur a:hover {
     color: #fffcef;
     background-color: #396657;
     transform: scale(1.05);
     z-index: 1;
+}
+#persegi {
+    background-color: #e7d5bb;
+    padding: 16px;
+    max-width: 700px;
+    margin: 20px auto 0;
+    border-radius: 20px;
 }
 .section-image {
     background-image: url(../assets/persegi.png);
@@ -109,4 +117,7 @@ section h1 {
 }
 footer {
     text-align: center;
+    font-family: "Acme", serif;
+    color: #5b3434;
+    font-size: 16px;
 }
