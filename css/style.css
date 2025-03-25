@@ -49,6 +49,10 @@ main {
     margin: auto;
     border-radius: 20px;
 }
+.container-main img {
+    padding: 20px 0;
+    max-width: 70%;
+}
 .welcome-text h1 {
     font-family: "Fredericka The Great", serif;
     color: #5b3434;
@@ -114,6 +118,8 @@ section {
     border: 3px solid;
     border-radius: 20px;
     padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .calculate-content h2 {
     font-family: "Fredericka The Great", solid;
