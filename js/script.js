@@ -2,7 +2,7 @@ const Kalkulator = {
   hitungLuasPersegi: function () {
       const sisi = parseFloat(document.getElementById("sisiLuasPersegi").value);
       if (isNaN(sisi) || sisi <= 0) {
-          alert("Masukkan angka yang valid dan lebih besar dari 0!");
+          alert("Masukkan angka > 0!");
           return;
       }
       document.getElementById("hasilLuasPersegi").innerText = sisi * sisi;
@@ -11,7 +11,7 @@ const Kalkulator = {
   hitungKelilingPersegi: function () {
       const sisi = parseFloat(document.getElementById("sisiKelilingPersegi").value);
       if (isNaN(sisi) || sisi <= 0) {
-          alert("Masukkan angka yang valid dan lebih besar dari 0!");
+          alert("Masukkan angka > 0!");
           return;
       }
       document.getElementById("hasilKelilingPersegi").innerText = 4 * sisi;
@@ -31,7 +31,7 @@ const Kalkulator = {
       const panjang = parseFloat(document.getElementById("panjangLuasPP").value);
       const lebar = parseFloat(document.getElementById("lebarLuasPP").value);
       if (isNaN(panjang) || panjang <= 0 || isNaN(lebar) || lebar <= 0) {
-          alert("Masukkan angka yang valid dan lebih besar dari 0!");
+          alert("Masukkan angka > 0!");
           return;
       }
       document.getElementById("hasilLuasPP").innerText = panjang * lebar;
@@ -41,7 +41,7 @@ const Kalkulator = {
       const panjang = parseFloat(document.getElementById("panjangKelilingPP").value);
       const lebar = parseFloat(document.getElementById("lebarKelilingPP").value);
       if (isNaN(panjang) || panjang <= 0 || isNaN(lebar) || lebar <= 0) {
-          alert("Masukkan angka yang valid dan lebih besar dari 0!");
+          alert("Masukkan angka > 0!");
           return;
       }
       document.getElementById("hasilKelilingPP").innerText = 2 * (panjang + lebar);
