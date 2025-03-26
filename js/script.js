@@ -24,11 +24,13 @@ const Kalkulator = {
   resetLuasPersegi: function () {
       document.getElementById("sisiLuasPersegi").value = "";
       document.getElementById("hasilLuasPersegi").innerText = "0";
+      document.getElementById("rumusLuasPersegi").innerText = "";
   },
 
   resetKelilingPersegi: function () {
       document.getElementById("sisiKelilingPersegi").value = "";
       document.getElementById("hasilKelilingPersegi").innerText = "0";
+      document.getElementById("rumusKelilingPersegi").innerText = "";
   },
 
   hitungLuasPersegiPanjang: function () {
@@ -59,11 +61,13 @@ const Kalkulator = {
       document.getElementById("panjangLuasPP").value = "";
       document.getElementById("lebarLuasPP").value = "";
       document.getElementById("hasilLuasPP").innerText = "0";
+      document.getElementById("rumusLuasPP").innerText = "";
   },
 
   resetKelilingPersegiPanjang: function () {
       document.getElementById("panjangKelilingPP").value = "";
       document.getElementById("lebarKelilingPP").value = "";
       document.getElementById("hasilKelilingPP").innerText = "0";
+      document.getElementById("rumusKelilingPP").innerText = "";
   }
 };
