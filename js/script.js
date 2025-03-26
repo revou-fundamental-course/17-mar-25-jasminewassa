@@ -5,7 +5,9 @@ const Kalkulator = {
           alert("Masukkan angka > 0!");
           return;
       }
-      document.getElementById("hasilLuasPersegi").innerText = sisi * sisi;
+      const luas = sisi * sisi;
+                document.getElementById("hasilLuasPersegi").innerText = luas;
+                document.getElementById("rumusLuasPersegi").innerText = `Rumus: ${sisi} × ${sisi} = ${luas} cm²`;
   },
 
   hitungKelilingPersegi: function () {
@@ -14,7 +16,9 @@ const Kalkulator = {
           alert("Masukkan angka > 0!");
           return;
       }
-      document.getElementById("hasilKelilingPersegi").innerText = 4 * sisi;
+      const keliling = 4 * sisi;
+                document.getElementById("hasilKelilingPersegi").innerText = keliling;
+                document.getElementById("rumusKelilingPersegi").innerText = `Rumus: 4 × ${sisi} = ${keliling} cm`;
   },
 
   resetLuasPersegi: function () {
@@ -34,7 +38,9 @@ const Kalkulator = {
           alert("Masukkan angka > 0!");
           return;
       }
-      document.getElementById("hasilLuasPP").innerText = panjang * lebar;
+      const luas = panjang * lebar;
+                document.getElementById("hasilLuasPP").innerText = luas;
+                document.getElementById("rumusLuasPP").innerText = `Rumus: ${panjang} × ${lebar} = ${luas} cm²`;
   },
 
   hitungKelilingPersegiPanjang: function () {
@@ -44,7 +50,9 @@ const Kalkulator = {
           alert("Masukkan angka > 0!");
           return;
       }
-      document.getElementById("hasilKelilingPP").innerText = 2 * (panjang + lebar);
+      const keliling = 2 * (panjang + lebar);
+                document.getElementById("hasilKelilingPP").innerText = keliling;
+                document.getElementById("rumusKelilingPP").innerText = `Rumus: 2 × (${panjang} + ${lebar}) = ${keliling} cm`;
   },
 
   resetLuasPersegiPanjang: function () {
