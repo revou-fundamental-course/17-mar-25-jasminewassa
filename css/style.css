@@ -87,12 +87,6 @@ main {
     transform: scale(1.05);
     z-index: 1;
 }
-#persegi {
-    background-color: #e7d5bb;
-    max-width: 700px;
-    margin: 0 auto;
-    border-radius: 20px;
-}
 section {
     padding: 0 16px;
 }
